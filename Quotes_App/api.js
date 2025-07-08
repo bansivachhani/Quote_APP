@@ -92,6 +92,8 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Quotes API! Use /api/quotes to get all quotes or /api/quotes/random to get a random quote.');
 });
 
+
+
 // Endpoint to get all quotes
 app.get('/api/quotes', (req, res) => {
   res.json(quotes);
